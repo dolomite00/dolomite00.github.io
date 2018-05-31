@@ -1,10 +1,12 @@
-## Welcome to GitHub Pages
+## Joon-Suk Lee
 
-JOON SUK LEE
+Joon-Suk Lee is Assistant Professor of Computer Science at Virginia State University.
 
-You can use the [editor on GitHub](https://github.com/dolomite00/dolomite00.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+His main research interests lie in Computer Supported Cooperative Work (CSCW) and Computer Supported Collaborative Learning (CSCL). His scholarship concerns technology-augmented coordinated behaviors.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Before graduate school, he was a research scientist/senior software engineer at several technology companies. While working in the semiconductor industry, he designed and developed laser marking systems and factory automation processing units. While working in the telecommunication industry, he developed wireless network protocols and applications for telecommunication service providers.
+
+Lee received his Ph.D. in Computer Science from Virginia Tech, an M.Sc. in Computer Science from Brown University, and a B.S degree in Computer Science from Pace University. 
 
 ### Markdown
 
