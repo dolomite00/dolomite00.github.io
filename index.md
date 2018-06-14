@@ -1,12 +1,12 @@
 ## Bio: Joon-Suk Lee
 
-Joon-Suk Lee is Assistant Professor of Computer Science at Virginia State University.
+Joon-Suk Lee is Associate Professor of Computer Science at Virginia State University.
 
 His main research interests lie in Computer Supported Cooperative Work (CSCW) and Computer Supported Collaborative Learning (CSCL). His scholarship concerns technology-augmented coordinated behaviors.
 
 Before graduate school, he was a research scientist/senior software engineer at several technology companies. While working in the semiconductor industry, he designed and developed laser marking systems and factory automation processing units. While working in the telecommunication industry, he developed wireless network protocols and applications for telecommunication service providers.
 
-Lee received his Ph.D. in Computer Science from Virginia Tech, an M.Sc. in Computer Science from Brown University, and a B.S degree in Computer Science from Pace University. 
+Lee received his Ph.D. in Computer Science from Virginia Tech, an M.Sc. in Computer Science from Brown University, and a B.S degree in Computer Science from Pace University.
 
 ### Markdown
 
