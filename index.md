@@ -1,4 +1,4 @@
-## Joon-Suk Lee
+## Bio: Joon-Suk Lee
 
 Joon-Suk Lee is Assistant Professor of Computer Science at Virginia State University.
 
