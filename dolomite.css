@@ -22,6 +22,19 @@ me {
 project {
 	color: #fe6666;
 }
+
+address {
+	font-style: italic;
+	font-weight: normal;
+	color: #888;
+}
+
+contact {
+	font-style: normal;
+	font-weight: normal;
+	color: #888;
+}
+
 body {
  max-width: 960px;
  min-width: 960px;
@@ -158,12 +171,12 @@ li { margin-bottom: 2px; }
 }
 
 /* Contact */
-#contact .body {
+/* #contact .body {
  width: 495px;
 }
 #contact .body a {
  font-weight: bold;
-}
+} */
 
 /* IE6 work-around hack */
 /* Hide from IE5-mac. Only IE-win sees this. \*/
