@@ -1,282 +1,240 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Faculty Office Hours (SP2025)</title>
-    <link rel="stylesheet" media="screen" href="dolomite.css"/>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CS Department Faculty Office Hours — Fall 2025</title>
+  <link rel="stylesheet" href="dolomite.css" />
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --accent: #0ea5e9;
+      --border: #e5e7eb;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+      margin: 0; padding: 0;
+      line-height: 1.5;
+    }
+    header {
+      padding: 2rem 1rem 0.5rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 1.75rem; }
+    header p { margin: 0.25rem 0 0; color: var(--muted); }
+    .container {
+      max-width: 1100px;
+      margin: 1rem auto 3rem;
+      padding: 0 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .name { font-weight: 700; font-size: 1.1rem; margin-bottom: 0.25rem; }
+    .sub {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+    .title {
+      color: var(--accent);
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+    .contact a { color: var(--accent); text-decoration: none; word-break: break-all; }
+    .contact a:hover { text-decoration: underline; }
+    .hours-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+    }
+    .hours-table th, .hours-table td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.6rem;
+      vertical-align: top;
+    }
+    .hours-table thead th {
+      background: #f3f4f6;
+      font-weight: 600;
+      text-align: left;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    .legend {
+      background: #eef6ff;
+      border: 1px solid #dbeafe;
+      color: #1e40af;
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Computer Science Faculty Office Hours — Fall 2025</h1>
+    <p>Virginia State University · Last updated September 05, 2025</p>
+  </header>
+  <main class="container">
+    <div class="legend">
+      <strong>Note:</strong> Hours marked “By appointment” require scheduling in advance via email. All times are in local campus time.
+    </div>
+    <section class="grid">
 
-  <body>
+      <article class="card">
+        <div class="name">Dr. Joon Suk Lee</div>
+        <div class="title">Department Chair</div>
+        <div class="sub">Office: HM1S</div>
+        <div class="contact">Contact: <a href="mailto:jlee@vsu.edu">jlee@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>12:00 PM – 1:00 PM; 3:00 PM – 4:00 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>12:00 PM – 1:00 PM; 3:00 PM – 4:00 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>12:00 PM – 1:00 PM; 3:00 PM – 4:00 PM</td><td>In-Person</td></tr><tr><td>Additional</td><td>2 hours</td><td>By appointment</td></tr></tbody></table>
+      </article>
 
-
-  <!-- main content -->
-  <div id="main">
-
-    <div id="vita">
-
-      <br><br>
-      <h1>Faculty Office Hours (SP2025)</h1>
-      <br><br>
-      <h6y style="color:red;">Hunter McDaniel 3rd Floor</h6y><br><br>
-      <h6y>Dr. Ahmed Mohammed (Freshmen Advisor)</h6y>
-      <br>
-      <p>
-      <div class="margin">Office: HM302Sa </div>
-      <div>
-      <p>
-      </div>
-      <div class="body">
-      <strong>Monday: </strong> 8:00am - 10:00am (HM28E)<br>
-      <strong>Wednesday: </strong> 8:00am - 10:00am (HM28E)<br>
-      <strong>Wednesday: </strong> 11:00am - 01:00pm (HM28E)<br>
-        <strong>+ Two hours by appointment</strong><br>      
-        <strong style="color:lightsalmon;">amohammed@vsu.edu</strong>
-      </div><br><br>
-
-      <h6y>Dr. Muhammad H. Rais</h6y>
-      <p>
-      <div class="margin">Office: HM302Sb
-        <strong style="color:steelblue;">(O)804-524-5415</strong>
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 10:00am - 12:00pm<br>
-        <strong>Tuesday: </strong> 10:00am - 12:00pm<br>
-        <strong>Wednesday: </strong> 10:00am - 12:00pm<br>
-        <strong>Thursday: </strong> 10:00am - 12:00pm (By Appointment)<br> 
-        <strong style="color:lightsalmon;">mrais@vsu.edu</strong>
-      </div><br><br>
-
-
-      <h6y>Dr. Joseph Shelton (Freshmen Advisor)</h6y>
-      <p>
-      <div class="margin">Office: HM302Sc
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 2:00pm - 4:00pm<br>
-        <strong>Tuesday: </strong> 3:30pm - 4:30pm<br>
-        <strong>Wednesday: </strong> 2:00pm - 4:00pm<br>
-        <strong>Thursday: </strong> 3:30pm - 4:30pm<br>
-        <strong>Friday: </strong> 12:00pm - 2:00pm (by Appointment)<br>
-        <strong style="color:lightsalmon;">jshelton@vsu.edu</strong>
-      </div><br><br>
-
-      <h6y>Dr. Wei-Bang Chen (Graduate Program Coordinator)</h6y>
-      <p>
-      <div class="margin">Office: HM302Sd
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 09:50am - 11:10am<br>
-        <strong>Tuesday: </strong> 09:10am - 12:30pm<br>
-        <strong>Wednesday: </strong> 09:50am - 11:10am<br><br>
-        <strong>+ By Appointment Only Hours: <br></strong> 
-        <strong>Monday: </strong> 08:30am - 09:00am & 11:10 am - 11:40am<br>
-        <strong>Wednesday: </strong> 08:30am - 09:00am & 11:10 am - 11:40am<br>
-        <br>
-        <i>To schedule an appointment with the instructor,
-          <br>please text the instructor at <strong style="color:steelblue;">(205) 249-2968</strong> with your full name and v-number</i>
-        </strong><br>
-        <strong style="color:lightsalmon;">wchen@vsu.edu</strong><br>
-      </div><br><br>
-
-
-      <h6y>Dr. Michael Reynolds</h6y>
-      <p>
-      <div class="margin">Office: HM302Se
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 2:00pm - 3:00pm (By appointment only)<br>
-        <strong>Tuesday: </strong> 9:30am - 11:00am<br>
-        <strong>Wednesday: </strong> 10:00am - 12:00pm<br>
-        <strong>Thursday: </strong> 9:30am - 11:00am<br>
-        <strong>Friday: </strong> 9:30am - 11:30am<br>
-        <strong style="color:lightsalmon;">mareynolds@vsu.edu</strong><br>
-      </div><br><br>
-
-      <h6y>Dr. Ju Wang</h6y>
-      <p>
-      <div class="margin">Office: HM304Sa
-      </div>
-      <div>
-      <div class="body">
-        <strong>Monday: </strong> 10:00am - 11:00am<br>
-        <strong>Wednesday: </strong> 10:00am - 11:00am<br>
-        <strong>Wednesday: </strong> 1:00pm - 2:30pm<br>
-        <strong>Friday: </strong> 12:30pm - 2:00pm<br>
-        <strong style="color:lightsalmon;">jwang@vsu.edu</strong><br>
-      </div><br><br>
-
-      <h6y>Dr. Enoch Solomon</h6y>
-      <p>
-      <div class="margin">Office: HM301Sd</div>
-      <div class="body">
-        <strong>Monday: </strong> 12:00 pm – 3:00 pm<br>
-        <strong>Wednesday: </strong> 12:00 pm – 3:00 pm<br>
-        <strong>Friday: </strong> 12:00 pm – 3:00 pm<br>
-        <strong>Friday: </strong> 10:00 pm – 12:00 pm (by Appointment)<br>
-        <strong style="color:lightsalmon;">esolomon@vsu.edu</strong><br>
-      </div><br><br><br>
-
-
-
-      <h6y style="color:red;">Hunter McDaniel 2nd Floor</h6y><br><br>
-      <h6y>Dr. Jordanne Davenport </h6y>
-      <p>
-      <div class="margin">Office: HM202Sa</div>
-      <div class="body">
-        <strong>Monday: </strong> 9:00am - 10:00am<br>
-        <strong>Wednesday: </strong> 9:00am - 10:00am & 2:00pm - 3:00pm<br>
-        <strong>Friday: </strong> 9:00am - 11:00am & 12:00pm - 1:00pm<br>
-        <strong>+ Two hours by appointment</strong><br>        
-        <strong style="color:lightsalmon;">jdavenport@vsu.edu</strong>
-      </div>
-      </p><br><br>
-
-      <h6y>Ms. Denise Daniels</h6y>
-      <p>
-      <div class="margin">Office: 202Se
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 11:00am - 4:00pm<br>
-        <strong>Tuesday: </strong> 12:30pm - 2:00pm<br>
-        <strong>Thursday: </strong> 12:30pm - 2:00pm<br>
-        <strong style="color:lightsalmon;">dcdaniels@vsu.edu</strong>
-        <strong>+ Two hours by appointment</strong><br>        
-      </div><br><br>
-
-      <h6y style="color:red;">Hunter McDaniel 0th Floor (basement)</h6y><br><br>
-      <h6y>Dr. Joon Suk Lee (Department Chair)</h6y>
-      <p>
-      <div class="margin">Office: HM1S
-        <strong style="color:steelblue;">(O)804-524-5425</strong>
-        <strong style="color:steelblue;">(C)540-808-7848</strong>
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 12:00pm - 2:00pm<br>
-        <strong>Wednesday: </strong> 12:00pm - 2:00pm<br>
-        <strong>Friday: </strong> 12:00pm - 2:00pm<br>
-        <strong>+ Two hours by appointment on Fridays</strong><br>
-        <strong style="color:lightsalmon;">jlee@vsu.edu</strong>
-      </div><br><br>
-
-      <h6y>Ms. Stacey Williams (Administrative Assistant)</h6y>
-      <p>
-      <div class="margin">Office: HM3S
-        <strong style="color:steelblue;">(O)804-524-5969</strong>
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 8:00am - 4:00pm<br>
-        <strong>Tuesday: </strong> 8:00am - 4:00pm<br>
-        <strong>Wednesday: </strong> 8:00am - 4:00pm<br>
-        <strong>Thursday: </strong> 8:00am - 4:00pm<br>
-        <strong>Friday: </strong> 8:00am - 4:00pm<br>
-        <strong style="color:lightsalmon;">stwilliams@vsu.edu</strong>
-      </div>
-      </p><br><br>
-
-      <h6y>Mr. Terrence Blunt (Lab Technician)</h6y>
-      <p>
-      <div class="margin">Office: HM28Eb
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 10:00am - 6:00pm<br>
-        <strong>Tuesday: </strong> 10:00am - 6:00pm<br>
-        <strong>Wednesday: </strong> 10:00am - 6:00pm<br>
-        <strong>Thursday: </strong> 10:00am - 6:00pm<br>
-        <strong>Friday: </strong> 10:00am - 6:00pm<br>
-        <strong style="color:lightsalmon;">tblunt@vsu.edu</strong>
-      </div>
-      </p><br><br>      
-
-      <h6y>Ms. Joi Bennett</h6y>
-      <p>
-      <div class="margin">Office: HM2s
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 11:00am - 1:00pm<br>
-        <strong>Tuesday: </strong> 11:00am - 1:00pm<br>
-        <strong>Friday: </strong> 11:00am - 1:00pm<br>
-        <strong>+ Two hours by appointment on Wednesdays</strong><br>
-        <strong style="color:lightsalmon">jbennett@vsu.edu</strong>
-      </div>
-      </p><br><br>
-
-      <h6y>Dr. Xuanchen Xiang</h6y>
-      <p>
-      <div class="margin">Office: HM2s
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 10:00am - 12:00pm<br>
-        <strong>Tuesday: </strong> 9:00am - 12:00pm<br>
-        <strong>Wednesday" </strong> 10:00am - 12:00pm<br>
-        <strong style="color:lightsalmon;">xxiang@vsu.edu</strong>
-      </div>
-      </p><br><br>
-
-      <h6y>Dr. Qian Qu</h6y>
-      <p>
-      <div class="margin">Office: HM2s
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 1:45pm - 2:45pm<br>
-        <strong>Tuesday: </strong> 1:45pm - 2:45pm<br>
-        <strong>Wednesday: </strong> 1:45pm - 2:45pm<br>
-        <strong>Thursday: </strong> 1:45pm - 2:45pm<br>
-        <strong style="color:lightsalmon;">qqu@vsu.edu</strong>
-      </div>
-      </p><br><br>
-
-      <h6y>Dr. Benjamin Standfield(adjunct)</h6y>
-      <p>
-      <div class="margin">Office: HM28E<br>
-        
-      </div>
-      <div class="body">
-        <strong>Tuesday: </strong> 1:00pm - 2:00pm<br>
-        <strong>Thursday: </strong> 1:00pm - 2:00pm<br>
-        <strong style="color:lightsalmon;">bstandfield@vsu.edu</strong>
-      </div>
-      </p><br><br>
-
-      <h6y>Dr. Brian Dowtin</h6y>
-      <p>
-<!--       <div class="margin">Office: HM2S<br>
-        <strong style="color:steelblue;">(C)202-423-4086</strong>
-      </div>
- -->      <div class="body">
-        <strong>Monday: </strong> 12:00pm - 2:00pm<br>
-        <strong>Monday: </strong> 3:00pm - 4:00pm<br>
-        <strong>Wednesday: </strong> 1:00pm - 2:00pm<br>
-        <strong>Wednesday: </strong> 3:00pm - 4:00pm<br>
-        <strong>Friday: </strong> 1:00pm - 2:00pm<br>
-        <strong>Friday: </strong> 3:00pm - 4:00pm<br>
-        <strong>Thursday: </strong> By Appointment Only<br>
-      <strong>Zoom: </strong> <a herf="https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fncat.zoom.us%2Fj%2F92216522040%3Fpwd%3Dg428HyKEa4jVVnhziBb4boXfEoijzU.1&data=05%7C02%7Cjlee%40vsu.edu%7Ceb5023d4714c4b089c4708dcc5d36b82%7Cabca6162bfa745269826e7fb30c1fc2e%7C0%7C0%7C638602759055248295%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=PzDWv21aeihvaQMBQzEyt4ry4hVcMqfnPzj6PZBdYPI%3D&reserved=0">Office Hour Link</a><br>
-      <strong style="color:lightsalmon;">bdowtin@vsu.edu</strong>
-      </div>
-      </p><br><br>
-
-
-<h6y style="color:red;">Engineering Building 1st Floor</h6y><br><br>
-      <h6y>Director of Student Retention & Program Data Alalyst</h6y><br><br>
-      <h6y style="color:black;">Ms. Victoria D. Tanner</h6y>
-      <p>
-      <div class="margin">Office: EB 100B
-        <strong style="color:steelblue;">(O)804-524-1103</strong>
-      </div>
-      <div class="body">
-        <strong>Monday: </strong> 9:00am - 5:00am<br>
-        <strong>Tuesday: </strong> 9:00am - 5:00am<br>
-        <strong>Wednesday: </strong> 9:00am - 5:00am<br>
-        <strong>Thursday: </strong> 9:00am - 5:00am<br>
-        <strong>Friday: </strong> 9:00am - 5:00am<br>
-        <strong style="color:lightsalmon;">vtanner@vsu.edu</strong>
-      </div><br><br>
-
-        <br><br><br>
-        <center>
-        <em>Last updated: Feb. 24, 2025</em>
-        </center>
-
-
-
+      <article class="card">
+        <div class="name">Dr. Joseph Shelton</div>
+        <div class="title">Freshman Advisor / Undergraduate Program Coordinator</div>
+        <div class="sub">Office: HM302Sc</div>
+        <div class="contact">Contact: <a href="mailto:jshelton@vsu.edu">jshelton@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>2:00 PM – 4:00 PM</td><td>In-Person</td></tr><tr><td>Tuesday</td><td>3:00 PM – 4:00 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>2:00 PM – 4:00 PM</td><td>In-Person</td></tr><tr><td>Thursday</td><td>3:00 PM – 4:00 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>12:00 PM – 2:00 PM</td><td>By appointment only</td></tr></tbody></table>
+      </article>
     
+      <article class="card">
+        <div class="name">Dr. Wei-Bang Chen</div>
+        <div class="title">Graduate Program Coordinator</div>
+        <div class="sub">Office: HM302Sd</div>
+        <div class="contact">Contact: <a href="mailto:wchen@vsu.edu">wchen@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday & Wednesday</td><td>9:50 AM – 12:50 PM</td><td>In-Person</td></tr></tbody></table>
+        <br>
+        To schedule an appointment with the instructor, please text the instructor at (205) 249-2968 with your full name and v-number
+      </article>
+    
+    <article class="card">
+        <div class="name">Dr. Michael Reynolds</div>
+        <div class="title">Accreditation Coordinator / ACM Advisor</div>
+        <div class="sub">Office: HM302Se</div>
+        <div class="contact">Contact: <a href="mailto:mareynolds@vsu.edu">mareynolds@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>2:00 PM – 3:00 PM</td><td>By appointment only</td></tr><tr><td>Tuesday</td><td>9:30 AM – 11:00 AM</td><td>In-Person</td></tr><tr><td>Tuesday</td><td>2:00 PM – 3:30 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>10:00 AM – 12:00 PM</td><td>In-Person</td></tr><tr><td>Thursday</td><td>9:30 AM – 11:00 AM</td><td>In-Person</td></tr><tr><td>Thursday</td><td>2:00 PM – 3:30 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>10:00 AM – 12:00 PM</td><td>In-Person</td></tr></tbody></table>
+      </article>
+    
+    <article class="card">
+        <div class="name">Ms. Victoria Tanner</div>
+        <div class="title">Director of Student Retention</div>
+        <div class="sub">Office: EB100D</div>
+        <div class="sub">Phone: (804) 524-1103</div>
+        <div class="contact">Contact: <a href="mailto:vtanner@vsu.edu">vtanner@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>2:00 PM – 3:00 PM</td><td>In-Person</td></tr><tr><td>Tuesday</td><td>2:00 PM – 3:00 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>2:00 PM – 3:00 PM</td><td>In-Person</td></tr><tr><td>Thursday</td><td>2:00 PM – 3:00 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>12:00 PM – 2:00 PM</td><td>By appointment</td></tr></tbody></table>
+      </article>
+    
+      <article class="card">
+        <div class="name">Dr. Ahmed Mohammed</div>
+        <div class="title">Freshman Advisor</div>
+        <div class="sub">Office: HM302Sa</div>
+        <div class="contact">Contact: <a href="mailto:amohammed@vsu.edu">amohammed@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>1:00 PM – 3:00 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>1:00 PM – 3:00 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>8:00 AM – 10:00 AM</td><td>In-Person</td></tr><tr><td>Additional</td><td>2 hours</td><td>By appointment</td></tr></tbody></table>
+      </article>
+    
+
+      <article class="card">
+        <div class="name">Ms. Denise Daniels</div>
+        <div class="sub">Office: HM301Sd</div>
+        <div class="contact">Contact: <a href="mailto:dcdaniels@vsu.edu">dcdaniels@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>10:00 AM – 1:00 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>10:00 AM – 1:00 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>2:00 PM – 4:00 PM</td><td>By appointment only</td></tr></tbody></table>
+      </article>
+    
+      <article class="card">
+        <div class="name">Mr. Terrence Blunt</div>
+        <div class="sub">Office: HM202Se</div>
+        <div class="contact">Contact: <a href="mailto:tblunt@vsu.edu">tblunt@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>11:00 AM – 12:30 PM</td><td>In-Person</td></tr><tr><td>Tuesday</td><td>11:00 AM – 12:30 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>11:00 AM – 12:30 PM</td><td>In-Person</td></tr><tr><td>Thursday</td><td>11:00 AM – 12:30 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>1:00 PM – 3:00 PM</td><td>In-Person</td></tr></tbody></table>
+      </article>
+    
+      <article class="card">
+        <div class="name">Ms. Joi Bennett</div>
+        <div class="sub">Office: HM2S</div>
+        <div class="contact">Contact: <a href="mailto:jbennett@vsu.edu">jbennett@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>11:00 AM – 12:00 PM; 2:00PM - 4:00PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>11:00 AM – 12:00 PM; 1:00PM - 2:00PM; 3:00PM - 4:00PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>11:00 AM – 12:00 PM; 2:00PM - 4:00PM</td><td>In-Person</td></tr></tbody></table>
+      </article>
+
+      <article class="card">
+        <div class="name">Dr. Xuanchen Xiang (Research Faculty)</div>
+        <div class="sub">Office: HM202Sa</div>
+        <div class="contact">Contact: <a href="mailto:xxiang@vsu.edu">xxiang@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday–Friday</td><td>9:00 AM – 5:00 PM</td><td>In-Person</td></tr></tbody></table>
+      </article>
+    
+      <article class="card">
+        <div class="name">Dr. Qian Qu (Research Faculty)</div>
+        <div class="sub">Office: HM2S</div>
+        <div class="contact">Contact: <a href="mailto:qqu@vsu.edu">qqu@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday–Friday</td><td>9:00 AM – 5:00 PM</td><td>In-Person</td></tr></tbody></table>
+      </article>
+    
+      <article class="card">
+        <div class="name">Dr. Muhammad Rais</div>
+        <div class="sub">Office: HM302Sb</div>
+        <div class="contact">Contact: <a href="mailto:mrais@vsu.edu">mrais@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>10:00 AM – 12:00 PM</td><td>In-Person</td></tr><tr><td>Tuesday</td><td>10:00 AM – 12:00 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>10:00 AM – 12:00 PM</td><td>In-Person</td></tr><tr><td>Thursday</td><td>10:00 AM – 12:00 PM</td><td>By appointment only</td></tr></tbody></table>
+      </article>
+    
+      <article class="card">
+        <div class="name">Dr. Ju Wang</div>
+        <div class="sub">Office: HM304Sa & 22Ea</div>
+        <div class="contact">Contact: <a href="mailto:jwang@vsu.edu">jwang@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>10:00 AM – 11:00 AM; 12:00 PM – 1:00 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>10:00 AM – 11:00 AM; 12:00 PM – 1:00 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>10:00 AM – 11:00 AM; 12:00 PM – 1:00 PM</td><td>By appointment only</td></tr></tbody></table>
+      </article>
+    
+
+      <article class="card">
+        <div class="name">Dr. Cesa Salaam</div>
+        <div class="sub">Office: TBA</div>
+        <div class="contact">Contact: <a href="mailto:csalaam@vsu.edu">csalaam@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>TBA</td><td>—</td><td>—</td></tr></tbody></table>
+      </article>
+    
+      <article class="card">
+        <div class="name">Dr. Nihal Poredi</div>
+        <div class="sub">Office: HM2S</div>
+        <div class="contact">Contact: —</div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>TBA</td><td>—</td><td>—</td></tr></tbody></table>
+      </article>
+      
+      <article class="card">
+        <div class="name">Ms. Adeeba Laraib</div>
+        <div class="sub">Office: HM202Sa</div>
+        <div class="contact">Contact: —</div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>TBA</td><td>—</td><td>—</td></tr></tbody></table>
+      </article>
+    
+      <article class="card">
+        <div class="name">Dr. Benjamin Standfield (Adjunct)</div>
+        <div class="sub">Office: 28E</div>
+        <div class="contact">Contact: <a href="mailto:bstandfield@vsu.edu">bstandfield@vsu.edu</a></div>
+        <table class="hours-table"><thead><tr><th>Day(s)</th><th>Time</th><th>Mode</th></tr></thead><tbody><tr><td>Monday</td><td>2:00 PM – 3:00 PM</td><td>In-Person</td></tr><tr><td>Wednesday</td><td>2:00 PM – 3:00 PM</td><td>In-Person</td></tr><tr><td>Friday</td><td>2:00 PM – 3:00 PM</td><td>In-Person</td></tr></tbody></table>
+      </article>
+    
+    </section>
+  </main>
+  <footer>
+    Please print and post your office hours on your door. Contact the department office for corrections.
+  </footer>
+</body>
+</html>
